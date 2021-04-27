@@ -1,0 +1,133 @@
+.about {
+  margin: 40px 20px 112px;
+  display: flex;
+  justify-content: space-between;
+
+  &__info,
+  &__services,
+  &__feedback {
+    flex: 1 1 33%;
+    margin-right: 45px;
+  }
+
+  &__info-title {
+    max-width: 170px;
+    width: 100%;
+    margin-bottom: 19px;
+    font-size: 22px;
+    color: #666666;
+  }
+
+  &__info-pic {
+    padding: 4px;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+  }
+
+  &__info-text {
+    width: 276px;
+    height: 178px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #999999;
+  }
+
+  &__info-link {
+    color: $main;
+    margin-left: 45%;
+    &:hover {
+      color: $main-hover;
+    }
+    &:active {
+      text-shadow: 1px 1px goldenrod;
+    }
+  }
+
+  &__services-title {
+    max-width: 210px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #666666;
+  }
+
+  &__services-content {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__services-img {
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+  }
+  .img-1 {
+    background: url("../img/icons/sprite.png");
+    background-position: 0 0;
+  }
+  .img-2 {
+    background: url("../img/icons/sprite.png");
+    background-position: -74px 0;
+  }
+  .img-3 {
+    background: url("../img/icons/sprite.png");
+    background-position: -156px 0;
+  }
+  .img-4 {
+    background: url("../img/icons/sprite.png");
+    background-position: -230px 0;
+  }
+
+  &__services-subtitle {
+    max-width: 92px;
+    width: 100%;
+    margin: 0 0 13px 18px;
+    font-size: 14px;
+    color: #878787;
+  }
+
+  &__services-info {
+    width: 190px;
+    line-height: 1.4;
+    height: 47px;
+    margin: 0 0 2px 18px;
+    font-size: 13px;
+    color: #868686;
+  }
+
+  &__feedback {
+    margin-right: 0;
+  }
+
+  &__feedback-title {
+    max-width: 218px;
+    width: 100%;
+    height: 22px;
+    margin: 0 0 15px 0;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #666666;
+  }
+
+  &__feedback-container {
+  }
+
+  &__feedback-subtitle {
+    max-width: 212px;
+    width: 100%;
+    margin-bottom: 7px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #989898;
+  }
+
+  &__feedback-info {
+    width: 273px;
+    height: 102px;
+    margin-bottom: 14px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #888888;
+  }
+}

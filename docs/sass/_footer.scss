@@ -1,0 +1,166 @@
+.footer {
+  &__container {
+    display: flex;
+  }
+
+  &__element {
+    border-top: 1px solid #000;
+    margin: 20px 20px 30px;
+    flex: 1 1 25%;
+  }
+
+  &__element-adress {
+    margin: 20px 0 11px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #999999;
+  }
+
+  &__element-links {
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+  }
+
+  &__element-link {
+    display: block;
+    margin: 3px 0 7px;
+    padding: 10px 0 14px 11px ;
+    font-size: 12px;
+    color:$main;
+    &:hover {
+      color: $main-hover;
+    }
+    &:active {
+      text-shadow: 1px 1px goldenrod;
+    }
+  }
+
+  &__element-form{
+    margin-top: 20px;
+  }
+
+  &__element-input,
+  &__element-text {
+    max-width: 225px;
+    width: 100%;
+    background-color: #383838;
+    border-radius: 5px;
+    color: #989898;
+    &:focus {
+      background-color:  #110e0e;
+      color: #d3c2c2;
+    }
+  }
+
+  &__element-input {
+    margin: 10px 0;
+    padding: 10px 10px 11px 10px;
+  }
+  &__element-text {
+    height: 110px;
+    margin: 10px 0;
+    padding: 11px 10px 86px 10px;
+  }
+
+  &__element-btn {
+    border-radius: 5px;
+    width: 80px;
+    margin: 2px 145px 13px 0;
+    padding: 10px 12px 11px;
+    color: #313131;
+    background-color: $main;
+    cursor: pointer;
+    &:hover {
+      background-color: #313131;
+      color: $main;
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
+.element {
+  &__adress-links {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #999999;
+    &:hover{
+      color: black;
+    }
+    &:active{
+      text-decoration: underline;
+    }
+  }
+
+  &__adress-hours {
+    font-weight: bold;
+  }
+
+  &__blog-title {
+    margin: 19px 0 7px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #999999;
+  }
+
+  &__blog-description {
+    margin: 7px 0 5px;
+    font-size: 11px;
+    color: #999999;
+  }
+
+  &__blog-info {
+    margin: 5px 0 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #999999;
+  }
+
+  &__blog-more {
+    margin: 14px 0 0 110px;
+    font-size: 12px;
+    color: #a7c353;
+    &:hover {
+      color: $main-hover;
+    }
+    &:active {
+      text-shadow: 1px 1px goldenrod;
+    }
+  }
+}
+.undegraund {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #3a3a3a;
+}
+.undegraund-info {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #999999;
+}
+.element__pic-1,
+.element__pic-2,
+.element__pic-3,
+.element__pic-4 {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+.element__pic-1 {
+  background: url("../img/icons/sprites.png");
+}
+.element__pic-2 {
+  background: url("../img/icons/sprites.png");
+  background-position: -35px 0;
+}
+.element__pic-3 {
+  background: url("../img/icons/sprites.png");
+  background-position: -69px 0;
+}
+.element__pic-4 {
+  background: url("../img/icons/sprites.png");
+  background-position: -104px 0;
+}
